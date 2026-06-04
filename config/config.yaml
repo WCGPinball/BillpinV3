@@ -7,6 +7,63 @@
 # include everything here, or create sub-config files to be
 # imported and merged with this one.
 
-modes:
-  - attract
-  - base
+hardware:
+    platform: fast
+
+
+fast:
+  net:
+    controller: neuron
+    port: auto
+    io_loop:
+      
+
+#Here is where you will add any additional switch / driver boards. Order is counted by 1 beginning connected to the neuron and then each one added would be order: 2, order: 3. The name of the board can be anything and will be used when defining coils or switches.
+
+      3208:
+        model: FP-I/O-3208
+        order: 1
+
+
+#modes:
+ # - attract
+  #- base
+
+switches:
+  s_left_flipper:
+    number: 3208-27
+    tags: left_flipper
+  s_right_flipper:
+    number: 3208-24
+    tags: right_flipper
+
+coils:
+  c_flipper_left_main:
+    number: 3208-3
+    default_pulse_ms: 20
+  c_flipper_left_hold:
+    number: 3208-2
+    allow_enable: true
+  c_flipper_right_main:
+    number: 3208-5
+    default_pulse_ms: 20
+  c_flipper_right_hold:
+    number: 3208-4
+    allow_enable: true
+
+playfields:
+  playfield:
+    tags: default
+    default_source_device: None  # use None in steps before 8
+
+flippers:
+  left_flipper:
+    main_coil: c_flipper_left_main
+    hold_coil: c_flipper_left_hold
+    activation_switch: s_left_flipper
+    enable_events: machine_reset_phase_3
+  right_flipper:
+    main_coil: c_flipper_right_main
+    hold_coil: c_flipper_right_hold
+    activation_switch: s_right_flipper
+    enable_events: machine_reset_phase_3

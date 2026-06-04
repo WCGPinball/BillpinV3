@@ -1,0 +1,72 @@
+2026-06-03 23:16:49,308 : INFO : root : Loading config.
+2026-06-03 23:16:49,311 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-06-03 23:16:49,312 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\config\config.yaml
+2026-06-03 23:16:49,312 : INFO : ConfigProcessor : Loading config from file C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-06-03 23:16:49,377 : INFO : ConfigProcessor : Loading config: C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\mpfconfig.yaml
+2026-06-03 23:16:49,378 : INFO : ConfigProcessor : Loading config from file C:\pinball\config\config.yaml.
+2026-06-03 23:16:49,410 : INFO : ConfigProcessor : Loading config: C:\pinball\config\config.yaml
+2026-06-03 23:16:49,412 : INFO : ConfigProcessor : Config file cache created: C:\Users\mpf\AppData\Local\Temp\6d5b600d7be1a6495e3e5a66bc905d87.mpf_cache
+2026-06-03 23:16:49,718 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\8f40fc9be560776ef72c29fc1142b5c0.mpf_cache
+2026-06-03 23:16:49,719 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\280ef0bf7d2e5d11f4cb038a53adbb41.mpf_cache
+2026-06-03 23:16:49,720 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev13
+2026-06-03 23:16:49,720 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-06-03-23-16-49-mpf-DESKTOP-OC28BPB.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\pinball\\logs\\2026-06-03-23-16-49-mpf-DESKTOP-OC28BPB.log'}
+2026-06-03 23:16:49,720 : INFO : Machine : MPF path: C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf
+2026-06-03 23:16:49,720 : INFO : Machine : Machine path: C:\pinball
+2026-06-03 23:16:49,720 : INFO : Machine : Platform: win32
+2026-06-03 23:16:49,720 : INFO : Machine : Python executable location: C:\Users\mpf\AppData\Local\Programs\Python\Python313\python.exe
+2026-06-03 23:16:49,720 : INFO : Machine : Python version: 3.13.12 (64-bit)
+2026-06-03 23:16:49,722 : INFO : Machine : Initializing MPF...
+2026-06-03 23:16:50,017 : INFO : FAST : Auto-detecting ports for the following connections: ['net']
+2026-06-03 23:16:50,046 : INFO : FAST : Detected NET on port COM4
+2026-06-03 23:16:50,179 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-06-03 23:16:50,263 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-06-03 23:16:50,269 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-06-03 23:16:50,278 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-06-03 23:16:50,278 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-06-03 23:16:50,312 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-06-03 23:16:50,312 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13', 'prev_value': None, 'change': True}
+2026-06-03 23:16:50,312 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-06-03 23:16:50,312 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.12', 'prev_value': None, 'change': True}
+2026-06-03 23:16:50,548 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26200-SP0', 'prev_value': None, 'change': True}
+2026-06-03 23:16:50,548 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-06-03 23:16:50,548 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2026-06-03 23:16:50,548 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26200', 'prev_value': None, 'change': True}
+2026-06-03 23:16:50,548 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-06-03 23:16:50,549 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\pinball\\logs\\2026-06-03-23-16-49-mpf-DESKTOP-OC28BPB.log', 'prev_value': None, 'change': True}
+2026-06-03 23:16:50,549 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-06-03 23:16:53,047 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-06-03 23:16:53,057 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-06-03 23:16:53,058 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-06-03 23:16:53,060 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-03 23:16:53,060 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-03 23:16:53,060 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-03 23:16:53,060 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-03 23:16:53,060 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2026-06-03 23:16:53,061 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2026-06-03 23:16:53,061 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2026-06-03 23:16:53,061 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2026-06-03 23:16:53,061 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2026-06-03 23:16:53,062 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2026-06-03 23:16:53,062 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2026-06-03 23:16:53,063 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2026-06-03 23:16:53,063 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2026-06-03 23:16:53,063 : INFO : Mode.attract : Started. Priority: 10
+2026-06-03 23:16:53,063 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-06-03 23:16:53,063 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2026-06-03 23:16:53,064 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2026-06-03 23:16:53,064 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2026-06-03 23:16:56,924 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-06-03 23:16:57,176 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-06-03 23:16:58,310 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-06-03 23:16:58,545 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-06-03 23:16:59,004 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-06-03 23:16:59,227 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-06-03 23:17:02,364 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-06-03 23:17:02,600 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-06-03 23:17:02,960 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-06-03 23:17:03,197 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-06-03 23:17:03,574 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-06-03 23:17:03,795 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-06-03 23:17:13,016 : INFO : Machine : Shutting down...
+2026-06-03 23:17:13,016 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-06-03 23:17:13,138 : INFO : root : MPF run loop ended.
