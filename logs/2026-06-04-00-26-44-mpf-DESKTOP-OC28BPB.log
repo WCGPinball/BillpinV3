@@ -1,0 +1,47 @@
+2026-06-04 00:26:44,095 : INFO : root : Loading config.
+2026-06-04 00:26:44,098 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-06-04 00:26:44,099 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\6d5b600d7be1a6495e3e5a66bc905d87.mpf_cache
+2026-06-04 00:26:44,193 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\8f40fc9be560776ef72c29fc1142b5c0.mpf_cache
+2026-06-04 00:26:44,193 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\280ef0bf7d2e5d11f4cb038a53adbb41.mpf_cache
+2026-06-04 00:26:44,193 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev13
+2026-06-04 00:26:44,194 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-06-04-00-26-44-mpf-DESKTOP-OC28BPB.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\pinball\\logs\\2026-06-04-00-26-44-mpf-DESKTOP-OC28BPB.log'}
+2026-06-04 00:26:44,194 : INFO : Machine : MPF path: C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf
+2026-06-04 00:26:44,194 : INFO : Machine : Machine path: C:\pinball
+2026-06-04 00:26:44,194 : INFO : Machine : Platform: win32
+2026-06-04 00:26:44,194 : INFO : Machine : Python executable location: C:\Users\mpf\AppData\Local\Programs\Python\Python313\python.exe
+2026-06-04 00:26:44,194 : INFO : Machine : Python version: 3.13.12 (64-bit)
+2026-06-04 00:26:44,195 : INFO : Machine : Initializing MPF...
+2026-06-04 00:26:44,395 : INFO : FAST : Auto-detecting ports for the following connections: ['net']
+2026-06-04 00:26:44,421 : INFO : FAST : Detected NET on port COM4
+2026-06-04 00:26:44,536 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-06-04 00:26:44,544 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-06-04 00:26:44,548 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-06-04 00:26:44,580 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-06-04 00:26:44,581 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-06-04 00:26:44,621 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-06-04 00:26:44,621 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13', 'prev_value': None, 'change': True}
+2026-06-04 00:26:44,621 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-06-04 00:26:44,621 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.12', 'prev_value': None, 'change': True}
+2026-06-04 00:26:44,656 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26200-SP0', 'prev_value': None, 'change': True}
+2026-06-04 00:26:44,656 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-06-04 00:26:44,656 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2026-06-04 00:26:44,656 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26200', 'prev_value': None, 'change': True}
+2026-06-04 00:26:44,656 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-06-04 00:26:44,656 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\pinball\\logs\\2026-06-04-00-26-44-mpf-DESKTOP-OC28BPB.log', 'prev_value': None, 'change': True}
+2026-06-04 00:26:44,656 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-06-04 00:26:46,849 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-06-04 00:26:46,853 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-06-04 00:26:46,860 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2026-06-04 00:27:07,227 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-06-04 00:27:07,418 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-06-04 00:27:07,723 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-06-04 00:27:07,882 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-06-04 00:27:11,736 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-06-04 00:27:11,911 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-06-04 00:27:12,071 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-06-04 00:27:12,248 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-06-04 00:27:14,787 : INFO : Machine : Starting the main run loop with active modes: []
+2026-06-04 00:27:14,788 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-06-04 00:27:14,790 : INFO : Machine : Shutting down...
+2026-06-04 00:27:14,790 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-06-04 00:27:15,905 : INFO : root : MPF run loop ended.

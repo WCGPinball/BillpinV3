@@ -28,6 +28,11 @@ fast:
 #modes:
  # - attract
   #- base
+  
+displays:
+  window:
+    width: 800
+    height: 600
 
 switches:
   s_left_flipper:
