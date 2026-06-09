@@ -1,0 +1,89 @@
+2026-06-08 22:29:26,255 : INFO : root : Loading config.
+2026-06-08 22:29:26,259 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-06-08 22:29:26,259 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\config\config.yaml
+2026-06-08 22:29:26,259 : INFO : ConfigProcessor : Loading config from file C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-06-08 22:29:26,319 : INFO : ConfigProcessor : Loading config: C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\mpfconfig.yaml
+2026-06-08 22:29:26,319 : INFO : ConfigProcessor : Loading config from file C:\pinball\config\config.yaml.
+2026-06-08 22:29:26,344 : INFO : ConfigProcessor : Loading config: C:\pinball\config\config.yaml
+2026-06-08 22:29:26,345 : INFO : ConfigProcessor : Config file cache created: C:\Users\mpf\AppData\Local\Temp\6d5b600d7be1a6495e3e5a66bc905d87.mpf_cache
+2026-06-08 22:29:26,437 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\8f40fc9be560776ef72c29fc1142b5c0.mpf_cache
+2026-06-08 22:29:26,438 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\280ef0bf7d2e5d11f4cb038a53adbb41.mpf_cache
+2026-06-08 22:29:26,439 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev13
+2026-06-08 22:29:26,439 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-06-08-22-29-26-mpf-DESKTOP-OC28BPB.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\pinball\\logs\\2026-06-08-22-29-26-mpf-DESKTOP-OC28BPB.log'}
+2026-06-08 22:29:26,439 : INFO : Machine : MPF path: C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf
+2026-06-08 22:29:26,439 : INFO : Machine : Machine path: C:\pinball
+2026-06-08 22:29:26,439 : INFO : Machine : Platform: win32
+2026-06-08 22:29:26,439 : INFO : Machine : Python executable location: C:\Users\mpf\AppData\Local\Programs\Python\Python313\python.exe
+2026-06-08 22:29:26,439 : INFO : Machine : Python version: 3.13.12 (64-bit)
+2026-06-08 22:29:26,441 : INFO : Machine : Initializing MPF...
+2026-06-08 22:29:26,545 : INFO : FAST : Auto-detecting ports for the following connections: ['net']
+2026-06-08 22:29:26,578 : INFO : FAST : Detected NET on port COM4
+2026-06-08 22:29:26,694 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-06-08 22:29:26,703 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-06-08 22:29:26,708 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-06-08 22:29:26,722 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-06-08 22:29:26,723 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-06-08 22:29:26,755 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-06-08 22:29:26,755 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13', 'prev_value': None, 'change': True}
+2026-06-08 22:29:26,755 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-06-08 22:29:26,756 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.12', 'prev_value': None, 'change': True}
+2026-06-08 22:29:26,793 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26200-SP0', 'prev_value': None, 'change': True}
+2026-06-08 22:29:26,794 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-06-08 22:29:26,794 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2026-06-08 22:29:26,794 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26200', 'prev_value': None, 'change': True}
+2026-06-08 22:29:26,794 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-06-08 22:29:26,794 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\pinball\\logs\\2026-06-08-22-29-26-mpf-DESKTOP-OC28BPB.log', 'prev_value': None, 'change': True}
+2026-06-08 22:29:26,794 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-06-08 22:29:29,085 : INFO : SwitchController : <<<<<<< 's_trough_ball_1' active >>>>>>>
+2026-06-08 22:29:29,086 : INFO : SwitchController : <<<<<<< 's_trough_ball_3' active >>>>>>>
+2026-06-08 22:29:29,086 : INFO : SwitchController : <<<<<<< 's_trough_ball_4' active >>>>>>>
+2026-06-08 22:29:29,086 : INFO : SwitchController : <<<<<<< 's_trough_ball_5' active >>>>>>>
+2026-06-08 22:29:29,086 : INFO : SwitchController : <<<<<<< 's_trough_ball_6' active >>>>>>>
+2026-06-08 22:29:29,089 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-06-08 22:29:29,090 : INFO : SwitchController : Found active switch: (26, [FAST Platform Interface]) <switch.s_trough_ball_1>
+2026-06-08 22:29:29,090 : INFO : SwitchController : Found active switch: (2, [FAST Platform Interface]) <switch.s_trough_ball_3>
+2026-06-08 22:29:29,090 : INFO : SwitchController : Found active switch: (3, [FAST Platform Interface]) <switch.s_trough_ball_4>
+2026-06-08 22:29:29,091 : INFO : SwitchController : Found active switch: (4, [FAST Platform Interface]) <switch.s_trough_ball_5>
+2026-06-08 22:29:29,091 : INFO : SwitchController : Found active switch: (5, [FAST Platform Interface]) <switch.s_trough_ball_6>
+2026-06-08 22:29:29,119 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-06-08 22:29:29,122 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-06-08 22:29:29,126 : ERROR : asyncio : Exception in callback EventManager._queue_task_done()
+handle: <Handle EventManager._queue_task_done()>
+Traceback (most recent call last):
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\devices\switch.py", line 81, in _check_duplicate_switch_numbers
+    raise AssertionError(
+        "Duplicate switch number {} for switch {}".format(
+            switch.hw_switch.number, switch))
+AssertionError: Duplicate switch number 27 for switch <switch.s_left_flipper>
+2026-06-08 22:29:29,172 : INFO : Machine : Starting the main run loop with active modes: []
+2026-06-08 22:29:29,172 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-06-08 22:29:29,172 : INFO : Machine : Shutting down...
+2026-06-08 22:29:29,172 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-06-08 22:29:30,296 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\devices\switch.py", line 81, in _check_duplicate_switch_numbers
+    raise AssertionError(
+        "Duplicate switch number {} for switch {}".format(
+            switch.hw_switch.number, switch))
+AssertionError: Duplicate switch number 27 for switch <switch.s_left_flipper>
+2026-06-08 22:29:30,350 : INFO : root : MPF run loop ended.
