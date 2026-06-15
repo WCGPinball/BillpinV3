@@ -1,0 +1,130 @@
+2026-06-14 23:41:26,055 : INFO : root : Loading config.
+2026-06-14 23:41:26,059 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-06-14 23:41:26,060 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\config\config.yaml
+2026-06-14 23:41:26,060 : INFO : ConfigProcessor : Loading config from file C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-06-14 23:41:26,119 : INFO : ConfigProcessor : Loading config: C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\mpfconfig.yaml
+2026-06-14 23:41:26,120 : INFO : ConfigProcessor : Loading config from file C:\pinball\config\config.yaml.
+2026-06-14 23:41:26,135 : INFO : ConfigProcessor : Loading config: C:\pinball\config\config.yaml
+2026-06-14 23:41:26,136 : INFO : ConfigProcessor : Config file cache created: C:\Users\mpf\AppData\Local\Temp\6d5b600d7be1a6495e3e5a66bc905d87.mpf_cache
+2026-06-14 23:41:26,247 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\8f40fc9be560776ef72c29fc1142b5c0.mpf_cache
+2026-06-14 23:41:26,249 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\280ef0bf7d2e5d11f4cb038a53adbb41.mpf_cache
+2026-06-14 23:41:26,250 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev13
+2026-06-14 23:41:26,250 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-06-14-23-41-26-mpf-DESKTOP-OC28BPB.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\pinball\\logs\\2026-06-14-23-41-26-mpf-DESKTOP-OC28BPB.log'}
+2026-06-14 23:41:26,250 : INFO : Machine : MPF path: C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf
+2026-06-14 23:41:26,250 : INFO : Machine : Machine path: C:\pinball
+2026-06-14 23:41:26,250 : INFO : Machine : Platform: win32
+2026-06-14 23:41:26,250 : INFO : Machine : Python executable location: C:\Users\mpf\AppData\Local\Programs\Python\Python313\python.exe
+2026-06-14 23:41:26,250 : INFO : Machine : Python version: 3.13.12 (64-bit)
+2026-06-14 23:41:26,252 : INFO : Machine : Initializing MPF...
+2026-06-14 23:41:26,388 : INFO : FAST : Auto-detecting ports for the following connections: ['net']
+2026-06-14 23:41:26,427 : INFO : FAST : Detected NET on port COM4
+2026-06-14 23:41:26,539 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-06-14 23:41:26,543 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-06-14 23:41:26,552 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-06-14 23:41:26,584 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-06-14 23:41:26,584 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-06-14 23:41:27,009 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-06-14 23:41:27,009 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13', 'prev_value': None, 'change': True}
+2026-06-14 23:41:27,009 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-06-14 23:41:27,009 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.12', 'prev_value': None, 'change': True}
+2026-06-14 23:41:27,226 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26200-SP0', 'prev_value': None, 'change': True}
+2026-06-14 23:41:27,227 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-06-14 23:41:27,227 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2026-06-14 23:41:27,227 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26200', 'prev_value': None, 'change': True}
+2026-06-14 23:41:27,227 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-06-14 23:41:27,227 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\pinball\\logs\\2026-06-14-23-41-26-mpf-DESKTOP-OC28BPB.log', 'prev_value': None, 'change': True}
+2026-06-14 23:41:27,227 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-06-14 23:41:31,366 : INFO : SwitchController : <<<<<<< 's_trough_ball_2' active >>>>>>>
+2026-06-14 23:41:31,366 : INFO : SwitchController : <<<<<<< 's_trough_ball_3' active >>>>>>>
+2026-06-14 23:41:31,367 : INFO : SwitchController : <<<<<<< 's_trough_ball_4' active >>>>>>>
+2026-06-14 23:41:31,367 : INFO : SwitchController : <<<<<<< 's_trough_ball_5' active >>>>>>>
+2026-06-14 23:41:31,367 : INFO : SwitchController : <<<<<<< 's_trough_ball_6' active >>>>>>>
+2026-06-14 23:41:31,367 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-06-14 23:41:31,367 : INFO : SwitchController : Found active switch: (1, [FAST Platform Interface]) <switch.s_trough_ball_2>
+2026-06-14 23:41:31,367 : INFO : SwitchController : Found active switch: (2, [FAST Platform Interface]) <switch.s_trough_ball_3>
+2026-06-14 23:41:31,367 : INFO : SwitchController : Found active switch: (3, [FAST Platform Interface]) <switch.s_trough_ball_4>
+2026-06-14 23:41:31,367 : INFO : SwitchController : Found active switch: (4, [FAST Platform Interface]) <switch.s_trough_ball_5>
+2026-06-14 23:41:31,368 : INFO : SwitchController : Found active switch: (5, [FAST Platform Interface]) <switch.s_trough_ball_6>
+2026-06-14 23:41:31,380 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-06-14 23:41:31,382 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-06-14 23:41:31,385 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,385 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,385 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,385 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,385 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,385 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,385 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_jam'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,385 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,385 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,386 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,386 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,386 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,386 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,386 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,386 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,386 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,386 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,386 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,386 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,386 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,386 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,387 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,387 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2026-06-14 23:41:31,387 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2026-06-14 23:41:31,388 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2026-06-14 23:41:31,388 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2026-06-14 23:41:31,388 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2026-06-14 23:41:31,388 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2026-06-14 23:41:31,389 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2026-06-14 23:41:31,390 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2026-06-14 23:41:31,390 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2026-06-14 23:41:31,390 : INFO : Mode.attract : Started. Priority: 10
+2026-06-14 23:41:31,390 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-06-14 23:41:31,390 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2026-06-14 23:41:31,391 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2026-06-14 23:41:31,391 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2026-06-14 23:44:25,756 : INFO : SwitchController : <<<<<<< 's_trough_ball_6' inactive >>>>>>>
+2026-06-14 23:44:25,852 : INFO : SwitchController : <<<<<<< 's_trough_ball_6' active >>>>>>>
+2026-06-14 23:44:25,853 : INFO : SwitchController : <<<<<<< 's_trough_ball_5' inactive >>>>>>>
+2026-06-14 23:44:25,930 : INFO : SwitchController : <<<<<<< 's_trough_ball_5' active >>>>>>>
+2026-06-14 23:44:25,946 : INFO : SwitchController : <<<<<<< 's_trough_ball_4' inactive >>>>>>>
+2026-06-14 23:44:26,010 : INFO : SwitchController : <<<<<<< 's_trough_ball_4' active >>>>>>>
+2026-06-14 23:44:26,010 : INFO : SwitchController : <<<<<<< 's_trough_ball_3' inactive >>>>>>>
+2026-06-14 23:44:26,059 : INFO : SwitchController : <<<<<<< 's_trough_ball_3' active >>>>>>>
+2026-06-14 23:44:26,060 : INFO : SwitchController : <<<<<<< 's_trough_ball_2' inactive >>>>>>>
+2026-06-14 23:44:26,106 : INFO : SwitchController : <<<<<<< 's_trough_ball_2' active >>>>>>>
+2026-06-14 23:44:26,123 : INFO : SwitchController : <<<<<<< 's_trough_ball_1' active >>>>>>>
+2026-06-14 23:44:26,171 : INFO : SwitchController : <<<<<<< 's_trough_ball_1' inactive >>>>>>>
+2026-06-14 23:44:26,187 : INFO : SwitchController : <<<<<<< 's_trough_ball_1' active >>>>>>>
+2026-06-14 23:44:50,007 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2026-06-14 23:44:50,259 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2026-06-14 23:44:50,260 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2026-06-14 23:44:50,260 : INFO : BallController : Known balls: 0
+2026-06-14 23:44:50,260 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2026-06-14 23:44:50,260 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2026-06-14 23:44:50,260 : INFO : BallController : Triggering ball search.
+2026-06-14 23:44:56,912 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2026-06-14 23:44:57,183 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2026-06-14 23:44:57,183 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2026-06-14 23:44:57,184 : INFO : BallController : Known balls: 0
+2026-06-14 23:44:57,184 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2026-06-14 23:44:57,184 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2026-06-14 23:44:57,185 : INFO : BallController : Triggering ball search.
+2026-06-14 23:44:58,542 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2026-06-14 23:44:58,734 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2026-06-14 23:44:58,735 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2026-06-14 23:44:58,736 : INFO : BallController : Known balls: 0
+2026-06-14 23:44:58,737 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2026-06-14 23:44:58,738 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2026-06-14 23:44:58,738 : INFO : BallController : Triggering ball search.
+2026-06-14 23:45:04,613 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-06-14 23:45:04,645 : INFO : SwitchController : <<<<<<< 's_flipper_right_eos' active >>>>>>>
+2026-06-14 23:45:04,725 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-06-14 23:45:04,805 : INFO : SwitchController : <<<<<<< 's_flipper_right_eos' inactive >>>>>>>
+2026-06-14 23:45:08,113 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-06-14 23:45:08,129 : INFO : SwitchController : <<<<<<< 's_flipper_left_eos' active >>>>>>>
+2026-06-14 23:45:09,214 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-06-14 23:45:09,294 : INFO : SwitchController : <<<<<<< 's_flipper_left_eos' inactive >>>>>>>
+2026-06-14 23:45:37,430 : INFO : Machine : Shutting down...
+2026-06-14 23:45:37,430 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-06-14 23:45:37,550 : INFO : root : MPF run loop ended.

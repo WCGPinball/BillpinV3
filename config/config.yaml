@@ -56,18 +56,24 @@ switches:
 
   s_trough_ball_2:
     number: 3208-1
+    type: 'NC'
 
   s_trough_ball_3:
     number: 3208-2
+    type: 'NC'
 
   s_trough_ball_4:
     number: 3208-3
+    type: 'NC'
+    
 
   s_trough_ball_5:
     number: 3208-4
+    type: 'NC'
 
   s_trough_ball_6:
     number: 3208-5
+    type: 'NC'
 
   s_left_flipper:
     number: 3208-27
@@ -146,16 +152,44 @@ coils:
 playfields:
   playfield:
     tags: default
-    default_source_device: None  # use None in steps before 8
+    default_source_device: bd_trough
 
 flippers:
   left_flipper:
     main_coil: c_flipper_left_main
     hold_coil: c_flipper_left_hold
     activation_switch: s_left_flipper
-    enable_events: machine_reset_phase_3
+    #enable_events: machine_reset_phase_3
   right_flipper:
     main_coil: c_flipper_right_main
     hold_coil: c_flipper_right_hold
     activation_switch: s_right_flipper
-    enable_events: machine_reset_phase_3
+    #enable_events: machine_reset_phase_3
+
+ball_devices:
+
+  bd_trough:
+
+    ball_switches: s_trough_ball_1, s_trough_ball_2, s_trough_ball_3, s_trough_ball_4, s_trough_ball_5, s_trough_ball_6
+    #mechanical_eject: true
+    tags: trough, home, drain
+    eject_coil: c_trough_eject_coil
+    eject_coil_jam_pulse: 15ms
+    eject_targets: bd_plunger
+    eject_timeouts: 2s
+    max_eject_attempts: 3
+
+  bd_plunger:
+
+    ball_switches: s_plunger
+    mechanical_eject: true
+    eject_timeouts: 5s
+
+autofire_coils:
+  left_sling:
+    coil: c_sling_left
+    switch: s_slingshot_left 
+
+  right_sling:
+    coil: c_sling_right
+    switch: s_slingshot_right
