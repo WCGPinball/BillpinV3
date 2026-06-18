@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blswb2vd2i8v4"
-path="res://.godot/imported/Window.svg-557ef5502bd4b54382b90e75ea03c105.ctex"
+uid="uid://cprvwh670aeq3"
+path="res://.godot/imported/ReferenceRect.svg-792d1eedbb3666d82dcf7d2d10cf4166.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/mpf-gmc/icons/Window.svg"
-dest_files=["res://.godot/imported/Window.svg-557ef5502bd4b54382b90e75ea03c105.ctex"]
+source_file="res://addons/mpf-gmc/icons/ReferenceRect.svg"
+dest_files=["res://.godot/imported/ReferenceRect.svg-792d1eedbb3666d82dcf7d2d10cf4166.ctex"]
 
 [params]
 

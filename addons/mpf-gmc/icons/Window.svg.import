@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d2p7l1ecd2csc"
-path="res://.godot/imported/WorldEnvironment.svg-3c32414b1a8987910883861b0656b34e.ctex"
+uid="uid://c30ngup88kwqv"
+path="res://.godot/imported/Window.svg-557ef5502bd4b54382b90e75ea03c105.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/mpf-gmc/icons/WorldEnvironment.svg"
-dest_files=["res://.godot/imported/WorldEnvironment.svg-3c32414b1a8987910883861b0656b34e.ctex"]
+source_file="res://addons/mpf-gmc/icons/Window.svg"
+dest_files=["res://.godot/imported/Window.svg-557ef5502bd4b54382b90e75ea03c105.ctex"]
 
 [params]
 

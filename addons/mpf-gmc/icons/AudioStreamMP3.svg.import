@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://deep6m5qg3mk0"
-path="res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex"
+uid="uid://pbjmnxfr2hte"
+path="res://.godot/imported/AudioStreamMP3.svg-1006a70557eb287d273e0d4d019362c2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon.svg"
-dest_files=["res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex"]
+source_file="res://addons/mpf-gmc/icons/AudioStreamMP3.svg"
+dest_files=["res://.godot/imported/AudioStreamMP3.svg-1006a70557eb287d273e0d4d019362c2.ctex"]
 
 [params]
 

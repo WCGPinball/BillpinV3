@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://mo8q4ljvtht"
-path="res://.godot/imported/Mesh.svg-58472f3831ec61e10166d5890b6747af.ctex"
+uid="uid://b24ow6gvtkjog"
+path="res://.godot/imported/GridLayout.svg-25652440c5bd6d44830d1377b8608c10.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/mpf-gmc/icons/Mesh.svg"
-dest_files=["res://.godot/imported/Mesh.svg-58472f3831ec61e10166d5890b6747af.ctex"]
+source_file="res://addons/mpf-gmc/icons/GridLayout.svg"
+dest_files=["res://.godot/imported/GridLayout.svg-25652440c5bd6d44830d1377b8608c10.ctex"]
 
 [params]
 
