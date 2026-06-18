@@ -7,6 +7,11 @@
 # include everything here, or create sub-config files to be
 # imported and merged with this one.
 
+config:
+  - config_switches.yaml
+  - config_ball_devices.yaml
+  - config_coils.yaml
+
 hardware:
     platform: fast
 
@@ -25,129 +30,16 @@ fast:
         order: 1
 
 
-#modes:
- # - attract
+modes:
+  - attract
   #- base
+
+
   
 #displays:
   #window:
     #width: 800
     #height: 600
-#slingshot_right:
-    #coil: c_sling_right
-    #switch: s_slingshot_right
-
-#slingshot_left:
-    #coil: c_sling_left
-    #switch: s_slingshot_left
-
-switches:
-
-  s_plunger:
-    number: 3208-7
-
-  s_trough_ball_jam:
-    number: 3208-6
-    type: 'NC'
-
-  s_trough_ball_1:
-    number: 3208-0
-    type: 'NC'
-
-  s_trough_ball_2:
-    number: 3208-1
-    type: 'NC'
-
-  s_trough_ball_3:
-    number: 3208-2
-    type: 'NC'
-
-  s_trough_ball_4:
-    number: 3208-3
-    type: 'NC'
-    
-
-  s_trough_ball_5:
-    number: 3208-4
-    type: 'NC'
-
-  s_trough_ball_6:
-    number: 3208-5
-    type: 'NC'
-
-  s_left_flipper:
-    number: 3208-27
-    tags: left_flipper
-  s_right_flipper:
-    number: 3208-24
-    tags: right_flipper
-
-  s_slingshot_left:
-    number: 3208-15
-    tags: slingshot_left
-  s_slingshot_right:
-    number: 3208-9
-    tags: slingshot_right
-
-#Other Buttons
-
-  s_start:
-    number: 3208-26
-    tags: start
-    #type: NC
-
-  s_launch:
-    number: 3208-25
-    tags: launch
-  
-#Lane Switches
-  s_left_outlane:
-    number: 3208-13
-    tags: outlane_left
-  s_left_inlane:
-    number: 3208-14
-    tags: inlane_left
-  s_right_inlane:
-    number: 3208-10
-    tags: inlane_right
-  s_right_outlane:
-    number: 3208-11
-    tags: outlane_right
-  s_flipper_left_eos:
-    number: 3208-12
-    tags: flipper_left_eos
-    type: NC
-  s_flipper_right_eos:
-    number: 3208-8
-    tags: flipper_right_eos
-    type: NC
-
-
-coils:
-  c_flipper_left_main:
-    number: 3208-3
-    default_pulse_ms: 20
-  c_flipper_left_hold:
-    number: 3208-2
-    allow_enable: true
-  c_flipper_right_main:
-    number: 3208-5
-    default_pulse_ms: 20
-  c_flipper_right_hold:
-    number: 3208-4
-    allow_enable: true
-  c_auto_plunger:
-    number: 3208-0
-    default_pulse_ms: 15
-  c_trough_eject_coil:
-    number: 3208-1
-    default_pulse_ms: 15
-  c_sling_left:
-    number: 3208-7
-    default_pulse_ms: 5
-  c_sling_right:
-    number: 3208-6
-    default_pulse_ms: 5
 
 playfields:
   playfield:
@@ -165,25 +57,6 @@ flippers:
     hold_coil: c_flipper_right_hold
     activation_switch: s_right_flipper
     #enable_events: machine_reset_phase_3
-
-ball_devices:
-
-  bd_trough:
-
-    ball_switches: s_trough_ball_1, s_trough_ball_2, s_trough_ball_3, s_trough_ball_4, s_trough_ball_5, s_trough_ball_6
-    #mechanical_eject: true
-    tags: trough, home, drain
-    eject_coil: c_trough_eject_coil
-    eject_coil_jam_pulse: 15ms
-    eject_targets: bd_plunger
-    eject_timeouts: 2s
-    max_eject_attempts: 3
-
-  bd_plunger:
-
-    ball_switches: s_plunger
-    mechanical_eject: true
-    eject_timeouts: 5s
 
 autofire_coils:
   left_sling:

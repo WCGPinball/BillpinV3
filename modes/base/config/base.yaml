@@ -7,3 +7,16 @@ mode:
   start_events: ball_starting
   stop_events: ball_will_end
   priority: 100
+
+#shots:
+  #outlane_left:
+  #switch: s_left_outlane
+
+  #inlane_left:
+  #switch: s_left_inlane
+
+#variable_player:
+  #outlane_left_hit:
+    #score: 100
+  #inlane_left_hit:
+    #score: 200

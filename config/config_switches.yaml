@@ -1,0 +1,82 @@
+#config_version=6
+
+switches:
+
+  s_plunger:
+    number: 3208-7
+
+  s_trough_ball_jam:
+    number: 3208-6
+    type: 'NC'
+
+  s_trough_ball_1:
+    number: 3208-0
+    type: 'NC'
+
+  s_trough_ball_2:
+    number: 3208-1
+    type: 'NC'
+
+  s_trough_ball_3:
+    number: 3208-2
+    type: 'NC'
+
+  s_trough_ball_4:
+    number: 3208-3
+    type: 'NC'
+    
+
+  s_trough_ball_5:
+    number: 3208-4
+    type: 'NC'
+
+  s_trough_ball_6:
+    number: 3208-5
+    type: 'NC'
+
+  s_left_flipper:
+    number: 3208-27
+    tags: left_flipper
+  s_right_flipper:
+    number: 3208-24
+    tags: right_flipper
+
+  s_slingshot_left:
+    number: 3208-15
+    tags: slingshot_left
+  s_slingshot_right:
+    number: 3208-9
+    tags: slingshot_right
+
+#Other Buttons
+
+  s_start:
+    number: 3208-26
+    tags: start
+    #type: NC
+
+  s_launch:
+    number: 3208-25
+    tags: launch
+  
+#Lane Switches
+  s_left_outlane:
+    number: 3208-13
+    tags: outlane_left
+  s_left_inlane:
+    number: 3208-14
+    tags: inlane_left
+  s_right_inlane:
+    number: 3208-10
+    tags: inlane_right
+  s_right_outlane:
+    number: 3208-11
+    tags: outlane_right
+  s_flipper_left_eos:
+    number: 3208-12
+    tags: flipper_left_eos
+    type: NC
+  s_flipper_right_eos:
+    number: 3208-8
+    tags: flipper_right_eos
+    type: NC
