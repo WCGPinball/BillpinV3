@@ -1,0 +1,16 @@
+2026-06-18 03:24:32,764 : INFO : root : Loading config.
+2026-06-18 03:24:32,768 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-06-18 03:24:32,768 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\config\config.yaml
+2026-06-18 03:24:32,769 : INFO : ConfigProcessor : Loading config from file C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-06-18 03:24:32,818 : INFO : ConfigProcessor : Loading config: C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\mpfconfig.yaml
+2026-06-18 03:24:32,818 : INFO : ConfigProcessor : Loading config from file C:\pinball\config\config.yaml.
+2026-06-18 03:24:32,823 : INFO : ConfigProcessor : Loading config: C:\pinball\config\config.yaml
+2026-06-18 03:24:32,832 : INFO : ConfigProcessor : Loading config: C:\pinball\config\config_switches.yaml
+2026-06-18 03:24:32,834 : INFO : ConfigProcessor : Loading config: C:\pinball\config\config_ball_devices.yaml
+2026-06-18 03:24:32,838 : INFO : ConfigProcessor : Loading config: C:\pinball\config\config_coils.yaml
+2026-06-18 03:24:32,839 : INFO : ConfigProcessor : Config file cache created: C:\Users\mpf\AppData\Local\Temp\6d5b600d7be1a6495e3e5a66bc905d87.mpf_cache
+2026-06-18 03:24:32,914 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\8f40fc9be560776ef72c29fc1142b5c0.mpf_cache
+2026-06-18 03:24:32,915 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\280ef0bf7d2e5d11f4cb038a53adbb41.mpf_cache
+2026-06-18 03:24:32,916 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\8f40fc9be560776ef72c29fc1142b5c0.mpf_cache
+2026-06-18 03:24:32,916 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\modes\base\config\base.yaml
+2026-06-18 03:24:32,916 : INFO : ConfigProcessor : Loading config from file C:\pinball\modes\base\config\base.yaml.
