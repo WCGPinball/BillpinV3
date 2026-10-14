@@ -1,0 +1,52 @@
+2026-10-13 20:31:37,450 : INFO : root : Loading config.
+2026-10-13 20:31:37,453 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-10-13 20:31:37,454 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\config\config.yaml
+2026-10-13 20:31:37,454 : INFO : ConfigProcessor : Loading config from file C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-10-13 20:31:37,505 : INFO : ConfigProcessor : Loading config: C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\mpfconfig.yaml
+2026-10-13 20:31:37,506 : INFO : ConfigProcessor : Loading config from file C:\pinball\config\config.yaml.
+2026-10-13 20:31:37,513 : INFO : ConfigProcessor : Loading config: C:\pinball\config\config.yaml
+2026-10-13 20:31:37,523 : INFO : ConfigProcessor : Loading config: C:\pinball\config\config_switches.yaml
+2026-10-13 20:31:37,525 : INFO : ConfigProcessor : Loading config: C:\pinball\config\config_ball_devices.yaml
+2026-10-13 20:31:37,530 : INFO : ConfigProcessor : Loading config: C:\pinball\config\config_coils.yaml
+2026-10-13 20:31:37,533 : INFO : ConfigProcessor : Config file cache created: C:\Users\mpf\AppData\Local\Temp\6d5b600d7be1a6495e3e5a66bc905d87.mpf_cache
+2026-10-13 20:31:37,601 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\8f40fc9be560776ef72c29fc1142b5c0.mpf_cache
+2026-10-13 20:31:37,602 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\280ef0bf7d2e5d11f4cb038a53adbb41.mpf_cache
+2026-10-13 20:31:37,602 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\8f40fc9be560776ef72c29fc1142b5c0.mpf_cache
+2026-10-13 20:31:37,603 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\d40f4ca26774ea864f33fb732ef4f4c0.mpf_cache
+2026-10-13 20:31:37,603 : INFO : Machine : Mission Pinball Framework Core Engine v0.81.0.dev2
+2026-10-13 20:31:37,604 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-10-13-20-31-37-mpf-DESKTOP-OC28BPB.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\pinball\\logs\\2026-10-13-20-31-37-mpf-DESKTOP-OC28BPB.log'}
+2026-10-13 20:31:37,604 : INFO : Machine : MPF path: C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf
+2026-10-13 20:31:37,604 : INFO : Machine : Machine path: C:\pinball
+2026-10-13 20:31:37,604 : INFO : Machine : Platform: win32
+2026-10-13 20:31:37,604 : INFO : Machine : Python executable location: C:\Users\mpf\AppData\Local\Programs\Python\Python313\python.exe
+2026-10-13 20:31:37,604 : INFO : Machine : Python version: 3.13.12 (64-bit)
+2026-10-13 20:31:37,605 : INFO : Machine : Initializing MPF...
+2026-10-13 20:31:37,829 : INFO : Machine : Shutting down...
+2026-10-13 20:31:37,829 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-10-13 20:31:37,935 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\core\machine.py", line 688, in initialize_mpf
+    raise init.exception()
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\core\machine.py", line 250, in initialize
+    await self.initialize_core_and_hardware()
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\core\machine.py", line 241, in initialize_core_and_hardware
+    self._validate_config()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\core\machine.py", line 372, in _validate_config
+    self.validate_machine_config_section('game')
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\core\machine.py", line 393, in validate_machine_config_section
+    self.config[section] = self.config_validator.validate_config(
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        section, self.config[section], section)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                 validation_failure_info=validation_failure_info)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\core\config_validator.py", line 182, in _validate_config
+    raise self.validation_error(source, validation_failure_info,
+                                "Config attribute should be dict but is {}".format(source.__class__))
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry game:game = "[{'max_players': 1}]" is not valid. Config attribute should be dict but is <class 'list'> Error Code: CFE-ConfigValidator-5 (https://missionpinball.org/latest/logs)
+2026-10-13 20:31:37,942 : INFO : root : MPF run loop ended.

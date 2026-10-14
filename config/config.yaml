@@ -32,6 +32,8 @@ fast:
         model: FP-I/O-0804
         order: 1
 
+#game:
+  #max_players: 1
 
 modes:
   - attract
