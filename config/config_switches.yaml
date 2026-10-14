@@ -47,6 +47,33 @@ switches:
   s_slingshot_right:
     number: 3208-9
     tags: slingshot_right
+  s_target_9:
+    number: 3208-28
+    tags: target_9
+  s_target1:
+    number: 3208-16
+    tags: target1
+  s_target2:
+    number: 3208-17
+    tags: target2
+  s_target3:
+    number: 3208-18
+    tags: target3
+  s_spinner:
+    number: 3208-19
+    tags: s_spinner
+  s_target5:
+    number: 3208-20
+    tags: target5
+  s_target6:
+    number: 3208-21
+    tags: target6
+  s_target7:
+    number: 3208-22
+    tags: target7
+  s_target8:
+    number: 3208-23
+    tags: target8
 
 #Other Buttons
 
@@ -80,3 +107,4 @@ switches:
     number: 3208-8
     tags: flipper_right_eos
     type: NC
+  

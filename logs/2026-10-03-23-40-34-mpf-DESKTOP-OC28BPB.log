@@ -1,0 +1,36 @@
+2026-10-03 23:40:34,233 : INFO : root : Loading config.
+2026-10-03 23:40:34,236 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-10-03 23:40:34,237 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\6d5b600d7be1a6495e3e5a66bc905d87.mpf_cache
+2026-10-03 23:40:34,301 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\8f40fc9be560776ef72c29fc1142b5c0.mpf_cache
+2026-10-03 23:40:34,301 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\280ef0bf7d2e5d11f4cb038a53adbb41.mpf_cache
+2026-10-03 23:40:34,302 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\8f40fc9be560776ef72c29fc1142b5c0.mpf_cache
+2026-10-03 23:40:34,303 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\d40f4ca26774ea864f33fb732ef4f4c0.mpf_cache
+2026-10-03 23:40:34,303 : INFO : Machine : Mission Pinball Framework Core Engine v0.81.0.dev2
+2026-10-03 23:40:34,303 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-10-03-23-40-34-mpf-DESKTOP-OC28BPB.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\pinball\\logs\\2026-10-03-23-40-34-mpf-DESKTOP-OC28BPB.log'}
+2026-10-03 23:40:34,303 : INFO : Machine : MPF path: C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf
+2026-10-03 23:40:34,303 : INFO : Machine : Machine path: C:\pinball
+2026-10-03 23:40:34,303 : INFO : Machine : Platform: win32
+2026-10-03 23:40:34,303 : INFO : Machine : Python executable location: C:\Users\mpf\AppData\Local\Programs\Python\Python313\python.exe
+2026-10-03 23:40:34,303 : INFO : Machine : Python version: 3.13.12 (64-bit)
+2026-10-03 23:40:34,305 : INFO : Machine : Initializing MPF...
+2026-10-03 23:40:34,509 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-10-03 23:40:34,527 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-10-03 23:40:34,527 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-03 23:40:34,527 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev2', 'prev_value': None, 'change': True}
+2026-10-03 23:40:34,527 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev2, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-10-03 23:40:34,527 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.12', 'prev_value': None, 'change': True}
+2026-10-03 23:40:34,560 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26200-SP0', 'prev_value': None, 'change': True}
+2026-10-03 23:40:34,560 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-10-03 23:40:34,560 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2026-10-03 23:40:34,560 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26200', 'prev_value': None, 'change': True}
+2026-10-03 23:40:34,560 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-10-03 23:40:34,560 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\pinball\\logs\\2026-10-03-23-40-34-mpf-DESKTOP-OC28BPB.log', 'prev_value': None, 'change': True}
+2026-10-03 23:40:34,560 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-10-03 23:40:34,576 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-10-03 23:40:34,578 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-10-03 23:40:34,579 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2026-10-03 23:40:56,370 : INFO : Machine : Starting the main run loop with active modes: []
+2026-10-03 23:40:56,370 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-10-03 23:40:56,371 : INFO : Machine : Shutting down...
+2026-10-03 23:40:56,371 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-10-03 23:40:57,392 : INFO : root : MPF run loop ended.

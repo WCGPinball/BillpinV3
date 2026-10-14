@@ -27,6 +27,9 @@ fast:
 
       3208:
         model: FP-I/O-3208
+        order: 2
+      0804:
+        model: FP-I/O-0804
         order: 1
 
 
@@ -36,10 +39,10 @@ modes:
 
 
   
-#displays:
-  #window:
-    #width: 800
-    #height: 600
+displays:
+  window:
+    width: 800
+    height: 600
 
 playfields:
   playfield:
