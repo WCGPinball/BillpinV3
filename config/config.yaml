@@ -69,3 +69,15 @@ autofire_coils:
   right_sling:
     coil: c_sling_right
     switch: s_slingshot_right
+
+  pop_0:
+    coil: c_pop_0
+    switch: s_pop_0
+
+  pop_1:
+    coil: c_pop_1
+    switch: s_pop_1
+
+  pop_2:
+    coil: c_pop_2
+    switch: s_pop_2
