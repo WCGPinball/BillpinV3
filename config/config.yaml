@@ -28,7 +28,7 @@ fast:
       3208:
         model: FP-I/O-3208
         order: 2
-      0804:
+      "0804":
         model: FP-I/O-0804
         order: 1
 

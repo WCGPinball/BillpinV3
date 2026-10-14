@@ -1,0 +1,659 @@
+2026-10-13 19:09:33,790 : INFO : root : Loading config.
+2026-10-13 19:09:33,794 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-10-13 19:09:33,794 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\6d5b600d7be1a6495e3e5a66bc905d87.mpf_cache
+2026-10-13 19:09:33,795 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\config\config_switches.yaml
+2026-10-13 19:09:33,795 : INFO : ConfigProcessor : Loading config from file C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-10-13 19:09:33,841 : INFO : ConfigProcessor : Loading config: C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf\mpfconfig.yaml
+2026-10-13 19:09:33,841 : INFO : ConfigProcessor : Loading config from file C:\pinball\config\config.yaml.
+2026-10-13 19:09:33,847 : INFO : ConfigProcessor : Loading config: C:\pinball\config\config.yaml
+2026-10-13 19:09:33,858 : INFO : ConfigProcessor : Loading config: C:\pinball\config\config_switches.yaml
+2026-10-13 19:09:33,860 : INFO : ConfigProcessor : Loading config: C:\pinball\config\config_ball_devices.yaml
+2026-10-13 19:09:33,864 : INFO : ConfigProcessor : Loading config: C:\pinball\config\config_coils.yaml
+2026-10-13 19:09:33,865 : INFO : ConfigProcessor : Config file cache created: C:\Users\mpf\AppData\Local\Temp\6d5b600d7be1a6495e3e5a66bc905d87.mpf_cache
+2026-10-13 19:09:33,967 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\8f40fc9be560776ef72c29fc1142b5c0.mpf_cache
+2026-10-13 19:09:33,967 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\280ef0bf7d2e5d11f4cb038a53adbb41.mpf_cache
+2026-10-13 19:09:33,968 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\8f40fc9be560776ef72c29fc1142b5c0.mpf_cache
+2026-10-13 19:09:33,968 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\d40f4ca26774ea864f33fb732ef4f4c0.mpf_cache
+2026-10-13 19:09:33,969 : INFO : Machine : Mission Pinball Framework Core Engine v0.81.0.dev2
+2026-10-13 19:09:33,969 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-10-13-19-09-33-mpf-DESKTOP-OC28BPB.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': 'C:\\pinball\\logs\\2026-10-13-19-09-33-mpf-DESKTOP-OC28BPB.log'}
+2026-10-13 19:09:33,969 : INFO : Machine : MPF path: C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\site-packages\mpf
+2026-10-13 19:09:33,969 : INFO : Machine : Machine path: C:\pinball
+2026-10-13 19:09:33,970 : INFO : Machine : Platform: win32
+2026-10-13 19:09:33,970 : INFO : Machine : Python executable location: C:\Users\mpf\AppData\Local\Programs\Python\Python313\python.exe
+2026-10-13 19:09:33,970 : INFO : Machine : Python version: 3.13.12 (64-bit)
+2026-10-13 19:09:33,971 : INFO : Machine : Initializing MPF...
+2026-10-13 19:09:34,168 : INFO : FAST : Auto-detecting ports for the following connections: ['net']
+2026-10-13 19:09:34,191 : INFO : FAST : Detected NET on port COM4
+2026-10-13 19:09:34,302 : INFO : FAST [NET] : Trying to connect to COM4 at 921600bps
+2026-10-13 19:09:34,310 : INFO : FAST [NET] : Connected to COM4 at 921600bps
+2026-10-13 19:09:34,321 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-10-13 19:09:34,347 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2026-10-13 19:09:34,362 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2026-10-13 19:09:34,363 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-10-13 19:09:34,385 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-10-13 19:09:34,385 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 600, 'prev_value': None, 'change': True}
+2026-10-13 19:09:34,385 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev2', 'prev_value': None, 'change': True}
+2026-10-13 19:09:34,385 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev2, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-10-13 19:09:34,385 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.12', 'prev_value': None, 'change': True}
+2026-10-13 19:09:34,437 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26200-SP0', 'prev_value': None, 'change': True}
+2026-10-13 19:09:34,437 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-10-13 19:09:34,437 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2026-10-13 19:09:34,437 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26200', 'prev_value': None, 'change': True}
+2026-10-13 19:09:34,437 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-10-13 19:09:34,437 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\pinball\\logs\\2026-10-13-19-09-33-mpf-DESKTOP-OC28BPB.log', 'prev_value': None, 'change': True}
+2026-10-13 19:09:34,437 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-10-13 19:09:36,732 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-10-13 19:09:36,739 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2026-10-13 19:09:36,739 : INFO : ball_device.bd_trough : State: idle
+2026-10-13 19:09:36,740 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2026-10-13 19:09:36,740 : INFO : ball_device.bd_plunger : State: idle
+2026-10-13 19:09:36,751 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-10-13 19:09:36,754 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-10-13 19:09:36,754 : INFO : BallController : Initial balls found: 0
+2026-10-13 19:09:36,755 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,755 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,755 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_left_eos'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,755 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_right_eos'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,755 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_launch'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,755 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_flipper'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,756 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_outlane'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,756 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_plunger'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,756 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_flipper'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,756 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,756 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_ball_jam'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,756 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 171, 'top': [600, 600, 0, 0, 0, 0, 0], 'total': 7}, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,756 : INFO : EventManager : Event: ======'machine_var_audits_shots_inlane_left'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,756 : INFO : EventManager : Event: ======'machine_var_audits_shots_outlane_left'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,756 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left_eos'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,756 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right_eos'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,756 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,756 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,756 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 33, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,756 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,756 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 18, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,756 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 25, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,756 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,756 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 25, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,757 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_left'====== Args={'value': 30, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,757 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,757 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,757 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_1'====== Args={'value': 130, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,757 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_2'====== Args={'value': 39, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,757 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_3'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,757 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_4'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,757 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_5'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,757 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_6'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,757 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_ball_jam'====== Args={'value': 53, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,757 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_target3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,757 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,757 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_target6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,757 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_target5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,757 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_target7'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,757 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_target1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,757 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,757 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_target8'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,758 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,758 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_0'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,758 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_target2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,758 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_target_9'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-13 19:09:36,758 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2026-10-13 19:09:36,758 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2026-10-13 19:09:36,759 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2026-10-13 19:09:36,759 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2026-10-13 19:09:36,759 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2026-10-13 19:09:36,759 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2026-10-13 19:09:36,759 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2026-10-13 19:09:36,759 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-10-13 19:09:36,759 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-10-13 19:09:36,760 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-10-13 19:09:36,760 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2026-10-13 19:09:36,760 : INFO : Mode.attract : Started. Priority: 10
+2026-10-13 19:09:36,760 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-10-13 19:09:36,760 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2026-10-13 19:09:36,760 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2026-10-13 19:09:36,760 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2026-10-13 19:09:36,761 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2026-10-13 19:09:41,760 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-10-13 19:09:41,761 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-10-13 19:09:41,761 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-10-13 19:09:41,761 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-10-13 19:09:41,763 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-10-13 19:09:50,025 : INFO : SwitchController : <<<<<<< 's_pop_0' active >>>>>>>
+2026-10-13 19:09:50,151 : INFO : SwitchController : <<<<<<< 's_pop_0' inactive >>>>>>>
+2026-10-13 19:09:50,213 : INFO : SwitchController : <<<<<<< 's_pop_0' active >>>>>>>
+2026-10-13 19:09:50,324 : INFO : SwitchController : <<<<<<< 's_pop_0' inactive >>>>>>>
+2026-10-13 19:09:50,372 : INFO : SwitchController : <<<<<<< 's_pop_0' active >>>>>>>
+2026-10-13 19:09:50,481 : INFO : SwitchController : <<<<<<< 's_pop_0' inactive >>>>>>>
+2026-10-13 19:09:51,237 : INFO : SwitchController : <<<<<<< 's_pop_2' active >>>>>>>
+2026-10-13 19:09:51,297 : INFO : SwitchController : <<<<<<< 's_pop_2' inactive >>>>>>>
+2026-10-13 19:09:51,471 : INFO : SwitchController : <<<<<<< 's_pop_2' active >>>>>>>
+2026-10-13 19:09:51,755 : INFO : SwitchController : <<<<<<< 's_pop_2' inactive >>>>>>>
+2026-10-13 19:09:51,833 : INFO : SwitchController : <<<<<<< 's_pop_2' active >>>>>>>
+2026-10-13 19:09:51,959 : INFO : SwitchController : <<<<<<< 's_pop_2' inactive >>>>>>>
+2026-10-13 19:09:52,075 : INFO : SwitchController : <<<<<<< 's_pop_2' active >>>>>>>
+2026-10-13 19:09:52,180 : INFO : SwitchController : <<<<<<< 's_pop_2' inactive >>>>>>>
+2026-10-13 19:09:52,242 : INFO : SwitchController : <<<<<<< 's_pop_2' active >>>>>>>
+2026-10-13 19:09:52,367 : INFO : SwitchController : <<<<<<< 's_pop_2' inactive >>>>>>>
+2026-10-13 19:09:52,414 : INFO : SwitchController : <<<<<<< 's_pop_2' active >>>>>>>
+2026-10-13 19:09:52,508 : INFO : SwitchController : <<<<<<< 's_pop_2' inactive >>>>>>>
+2026-10-13 19:09:55,916 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:09:55,939 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:09:57,649 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:09:57,682 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:09:58,122 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:09:58,186 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:09:58,423 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:09:58,423 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:09:58,786 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:09:58,787 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:02,686 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:02,687 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:02,796 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:02,844 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:04,782 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:04,876 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:05,316 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:07,048 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:07,423 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:07,582 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:07,757 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:07,882 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:08,073 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:09,058 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:09,559 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:09,684 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:09,920 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:09,999 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:10,268 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:10,411 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:10,634 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:10,757 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:10,945 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:11,074 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:11,209 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:11,303 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:11,837 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:11,859 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:11,931 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:11,951 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:12,043 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:12,067 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:12,138 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:12,162 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:12,248 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:12,270 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:12,271 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:12,310 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:12,332 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:12,364 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:12,435 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:12,547 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:12,846 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:12,973 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:13,178 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:13,288 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:13,542 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:13,683 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:13,745 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:13,852 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:14,510 : INFO : SwitchController : <<<<<<< 's_pop_2' active >>>>>>>
+2026-10-13 19:10:14,651 : INFO : SwitchController : <<<<<<< 's_pop_2' inactive >>>>>>>
+2026-10-13 19:10:14,728 : INFO : SwitchController : <<<<<<< 's_pop_2' active >>>>>>>
+2026-10-13 19:10:14,838 : INFO : SwitchController : <<<<<<< 's_pop_2' inactive >>>>>>>
+2026-10-13 19:10:15,496 : INFO : SwitchController : <<<<<<< 's_pop_0' active >>>>>>>
+2026-10-13 19:10:15,605 : INFO : SwitchController : <<<<<<< 's_pop_0' inactive >>>>>>>
+2026-10-13 19:10:15,748 : INFO : SwitchController : <<<<<<< 's_pop_0' active >>>>>>>
+2026-10-13 19:10:15,844 : INFO : SwitchController : <<<<<<< 's_pop_0' inactive >>>>>>>
+2026-10-13 19:10:15,970 : INFO : SwitchController : <<<<<<< 's_pop_0' active >>>>>>>
+2026-10-13 19:10:16,080 : INFO : SwitchController : <<<<<<< 's_pop_0' inactive >>>>>>>
+2026-10-13 19:10:16,173 : INFO : SwitchController : <<<<<<< 's_pop_0' active >>>>>>>
+2026-10-13 19:10:16,264 : INFO : SwitchController : <<<<<<< 's_pop_0' inactive >>>>>>>
+2026-10-13 19:10:17,131 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:17,210 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:17,416 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:17,480 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:17,667 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:17,730 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:17,966 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:18,030 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:18,188 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:18,250 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:18,361 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:18,440 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:18,580 : INFO : SwitchController : <<<<<<< 's_pop_1' active >>>>>>>
+2026-10-13 19:10:18,642 : INFO : SwitchController : <<<<<<< 's_pop_1' inactive >>>>>>>
+2026-10-13 19:10:19,586 : INFO : SwitchController : <<<<<<< 's_target3' active >>>>>>>
+2026-10-13 19:10:19,666 : INFO : SwitchController : <<<<<<< 's_target3' inactive >>>>>>>
+2026-10-13 19:10:19,687 : INFO : SwitchController : <<<<<<< 's_target2' active >>>>>>>
+2026-10-13 19:10:19,902 : INFO : SwitchController : <<<<<<< 's_target1' active >>>>>>>
+2026-10-13 19:10:19,980 : INFO : SwitchController : <<<<<<< 's_target2' inactive >>>>>>>
+2026-10-13 19:10:20,121 : INFO : SwitchController : <<<<<<< 's_target1' inactive >>>>>>>
+2026-10-13 19:10:20,214 : INFO : SwitchController : <<<<<<< 's_target3' active >>>>>>>
+2026-10-13 19:10:20,419 : INFO : SwitchController : <<<<<<< 's_target2' active >>>>>>>
+2026-10-13 19:10:20,420 : INFO : SwitchController : <<<<<<< 's_target3' inactive >>>>>>>
+2026-10-13 19:10:20,608 : INFO : SwitchController : <<<<<<< 's_target1' active >>>>>>>
+2026-10-13 19:10:20,639 : INFO : SwitchController : <<<<<<< 's_target2' inactive >>>>>>>
+2026-10-13 19:10:20,875 : INFO : SwitchController : <<<<<<< 's_target3' active >>>>>>>
+2026-10-13 19:10:20,876 : INFO : SwitchController : <<<<<<< 's_target1' inactive >>>>>>>
+2026-10-13 19:10:20,970 : INFO : SwitchController : <<<<<<< 's_target2' active >>>>>>>
+2026-10-13 19:10:21,048 : INFO : SwitchController : <<<<<<< 's_target3' inactive >>>>>>>
+2026-10-13 19:10:21,110 : INFO : SwitchController : <<<<<<< 's_target2' inactive >>>>>>>
+2026-10-13 19:10:21,646 : INFO : SwitchController : <<<<<<< 's_target_9' active >>>>>>>
+2026-10-13 19:10:21,740 : INFO : SwitchController : <<<<<<< 's_target_9' inactive >>>>>>>
+2026-10-13 19:10:21,850 : INFO : SwitchController : <<<<<<< 's_target_9' active >>>>>>>
+2026-10-13 19:10:21,946 : INFO : SwitchController : <<<<<<< 's_target_9' inactive >>>>>>>
+2026-10-13 19:10:22,057 : INFO : SwitchController : <<<<<<< 's_target_9' active >>>>>>>
+2026-10-13 19:10:22,119 : INFO : SwitchController : <<<<<<< 's_target_9' inactive >>>>>>>
+2026-10-13 19:10:23,615 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2026-10-13 19:10:23,647 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2026-10-13 19:10:23,725 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2026-10-13 19:10:23,746 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2026-10-13 19:10:23,835 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2026-10-13 19:10:23,857 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2026-10-13 19:10:23,959 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2026-10-13 19:10:24,007 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2026-10-13 19:10:24,101 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2026-10-13 19:10:24,164 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2026-10-13 19:10:24,290 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2026-10-13 19:10:24,461 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2026-10-13 19:10:24,680 : INFO : SwitchController : <<<<<<< 's_spinner' active >>>>>>>
+2026-10-13 19:10:24,742 : INFO : SwitchController : <<<<<<< 's_spinner' inactive >>>>>>>
+2026-10-13 19:10:25,182 : INFO : SwitchController : <<<<<<< 's_target8' active >>>>>>>
+2026-10-13 19:10:25,229 : INFO : SwitchController : <<<<<<< 's_target8' inactive >>>>>>>
+2026-10-13 19:10:25,450 : INFO : SwitchController : <<<<<<< 's_target7' active >>>>>>>
+2026-10-13 19:10:25,607 : INFO : SwitchController : <<<<<<< 's_target7' inactive >>>>>>>
+2026-10-13 19:10:25,764 : INFO : SwitchController : <<<<<<< 's_target6' active >>>>>>>
+2026-10-13 19:10:25,844 : INFO : SwitchController : <<<<<<< 's_target6' inactive >>>>>>>
+2026-10-13 19:10:26,015 : INFO : SwitchController : <<<<<<< 's_target5' active >>>>>>>
+2026-10-13 19:10:26,092 : INFO : SwitchController : <<<<<<< 's_target5' inactive >>>>>>>
+2026-10-13 19:11:03,191 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-10-13 19:11:03,191 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2026-10-13 19:11:03,192 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:03,254 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-10-13 19:11:03,365 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-10-13 19:11:03,365 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2026-10-13 19:11:03,366 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:03,443 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-10-13 19:11:03,773 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-10-13 19:11:03,774 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2026-10-13 19:11:03,774 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-10-13 19:11:03,837 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-10-13 19:11:03,931 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-10-13 19:11:03,932 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2026-10-13 19:11:03,932 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-10-13 19:11:04,041 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-10-13 19:11:04,118 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:04,119 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:04,119 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:04,119 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:04,181 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:04,182 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:04,182 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:04,183 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:04,183 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:04,184 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:04,184 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:04,205 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:04,561 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:04,561 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:04,561 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-10-13 19:11:04,584 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:04,585 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:04,586 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:04,586 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:04,613 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:04,796 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:04,796 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:04,797 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:04,828 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:04,875 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:04,875 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:04,875 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:04,876 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:04,938 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:04,939 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:04,940 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-10-13 19:11:04,962 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:05,254 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:05,254 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:05,255 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:05,331 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:05,442 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:05,442 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:05,443 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:05,463 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:05,493 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:05,493 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:05,494 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:05,526 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:05,740 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:05,741 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:05,741 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-10-13 19:11:05,850 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:06,100 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:06,100 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:06,101 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:06,211 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:06,433 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:06,434 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:06,434 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:06,511 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:06,621 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:06,621 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:06,622 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:06,730 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:20,228 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:20,229 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:20,230 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-10-13 19:11:20,291 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:20,465 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:20,465 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:20,466 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:20,487 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:20,672 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:20,673 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:20,673 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:20,694 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:20,751 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:20,752 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:20,752 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:20,772 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:21,050 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:21,051 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:21,051 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-10-13 19:11:21,097 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:21,097 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:21,098 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:21,098 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:21,159 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:21,570 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:21,570 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:21,571 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:21,571 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:21,571 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:21,572 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:21,572 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:21,593 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:21,625 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:21,625 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:21,626 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-10-13 19:11:21,654 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:21,664 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:21,664 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:21,665 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:21,743 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:21,915 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:21,916 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:21,916 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:22,042 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:22,246 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:22,246 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:22,247 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:22,323 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:22,527 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:22,528 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:22,529 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-10-13 19:11:22,557 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:22,604 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:22,604 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:22,604 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:22,605 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:22,623 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:22,623 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:22,623 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:22,640 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:22,823 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:22,823 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:22,824 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:22,845 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:22,846 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:22,846 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:22,846 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-10-13 19:11:22,917 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:25,641 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:25,641 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:25,642 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:26,238 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:26,658 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:26,658 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:26,659 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:26,784 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:26,815 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:26,816 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:26,816 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:26,818 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:30,026 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:30,026 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:30,027 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-10-13 19:11:30,058 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:30,310 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:30,310 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:30,311 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:30,373 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:30,674 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:30,674 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:30,675 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:30,769 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:31,037 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-10-13 19:11:31,038 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2026-10-13 19:11:31,039 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-10-13 19:11:31,114 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-10-13 19:11:31,272 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-10-13 19:11:31,273 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2026-10-13 19:11:31,273 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-10-13 19:11:31,366 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-10-13 19:11:31,556 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:31,556 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:31,556 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:31,649 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:31,790 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:31,791 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:31,791 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:31,870 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:32,043 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:32,044 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:32,044 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:32,124 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:32,283 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:32,284 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:32,284 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-10-13 19:11:32,393 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:32,534 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:32,535 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:32,535 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:32,614 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:32,773 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:32,774 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:32,774 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:32,820 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:32,977 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:32,978 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:32,979 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:33,041 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:33,167 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:33,167 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:33,168 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-10-13 19:11:33,245 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:33,386 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:33,386 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:33,387 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:33,465 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:33,592 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:33,592 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:33,593 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:33,684 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:33,811 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:33,812 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:33,812 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:33,891 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:34,016 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:34,017 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:34,017 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-10-13 19:11:34,111 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:34,207 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:34,208 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:34,208 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:34,318 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:34,398 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:34,398 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:34,399 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:34,493 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:34,604 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:34,604 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:34,605 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:34,697 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:34,932 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:34,932 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:34,933 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-10-13 19:11:35,010 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:35,135 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:35,135 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:35,136 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:35,213 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:35,324 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:35,324 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:35,325 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:35,402 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:35,497 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:35,497 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:35,498 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:35,576 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:35,671 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:35,672 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:35,672 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-10-13 19:11:35,767 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:35,892 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:35,893 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:35,893 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:35,970 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:36,314 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:36,314 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:36,315 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:36,440 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:36,816 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:36,817 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:36,818 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:36,837 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:37,368 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:37,368 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:37,369 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-10-13 19:11:37,390 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:37,390 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:37,390 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:37,391 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:37,873 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:38,014 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:38,014 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:38,015 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:38,660 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:38,817 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:38,817 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:38,818 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:38,911 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:39,037 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:39,037 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:39,038 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-10-13 19:11:39,115 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:40,543 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-10-13 19:11:40,543 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2026-10-13 19:11:40,544 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:40,651 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-10-13 19:11:40,761 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-10-13 19:11:40,761 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2026-10-13 19:11:40,763 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:40,888 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-10-13 19:11:41,082 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-10-13 19:11:41,082 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2026-10-13 19:11:41,082 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-10-13 19:11:41,171 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-10-13 19:11:41,282 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-10-13 19:11:41,283 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2026-10-13 19:11:41,283 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-10-13 19:11:41,392 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-10-13 19:11:41,440 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:41,440 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:41,441 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:41,519 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:41,630 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:41,630 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:41,631 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:41,739 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:41,818 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-10-13 19:11:41,818 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2026-10-13 19:11:41,819 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-10-13 19:11:41,928 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-10-13 19:11:42,038 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:42,039 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:42,040 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:42,131 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:42,209 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-10-13 19:11:42,209 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2026-10-13 19:11:42,210 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-10-13 19:11:42,289 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-10-13 19:11:42,506 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2026-10-13 19:11:42,506 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2026-10-13 19:11:42,507 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-10-13 19:11:42,567 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2026-10-13 19:11:42,833 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:42,833 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:42,834 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:42,834 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:42,853 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:42,853 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:42,854 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:42,864 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:42,880 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:42,881 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:42,881 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:42,911 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:43,053 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:43,053 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:43,054 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-10-13 19:11:43,130 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:43,317 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:43,317 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:43,318 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:43,394 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:43,613 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:43,614 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:43,615 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:43,645 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:43,665 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:43,666 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:43,666 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:43,666 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:43,666 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:43,666 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:43,667 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-10-13 19:11:43,708 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:43,990 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:43,991 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:43,991 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:44,012 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:44,013 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:44,013 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:44,013 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:44,431 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:44,637 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:44,638 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:44,639 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:44,824 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:44,966 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:44,967 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:44,968 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'credits'}
+2026-10-13 19:11:45,122 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:45,372 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:45,373 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:45,373 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:45,373 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'title'}
+2026-10-13 19:11:45,392 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:45,392 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:45,392 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'mpf_logo'}
+2026-10-13 19:11:45,450 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:45,593 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2026-10-13 19:11:45,594 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2026-10-13 19:11:45,594 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'last_scores_1p'}
+2026-10-13 19:11:45,687 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2026-10-13 19:11:56,185 : INFO : Machine : Shutting down...
+2026-10-13 19:11:56,186 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-10-13 19:11:56,301 : INFO : root : MPF run loop ended.
