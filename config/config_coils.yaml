@@ -27,10 +27,10 @@ coils:
     default_pulse_ms: 5
   c_pop_0:
     number: 0804-0
-    default_pulse_ms: 5
+    default_pulse_ms: 20
   c_pop_1:
     number: 0804-1
-    default_pulse_ms: 5
+    default_pulse_ms: 20
   c_pop_2:
     number: 0804-2
-    default_pulse_ms: 5
+    default_pulse_ms: 20
