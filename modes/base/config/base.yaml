@@ -32,10 +32,7 @@ shots:
 
   target3:
     switch: s_target3
-  
-  target4:
-    switch: s_target4
-  
+    
   target5:
     switch: s_target5
 
@@ -92,11 +89,11 @@ variable_player:
     score: 100
   spinner_hit:
     score: 100
-  pop_0_hit:
+  pop0_hit:
     score: 100
-  pop_1_hit:
+  pop1_hit:
     score: 100
-  pop_2_hit:
+  pop2_hit:
     score: 100
 
   

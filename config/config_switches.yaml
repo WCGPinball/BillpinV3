@@ -47,9 +47,9 @@ switches:
   s_slingshot_right:
     number: 3208-9
     tags: slingshot_right
-  s_target_9:
+  s_target9:
     number: 3208-28
-    tags: target_9
+    tags: target9
   s_target1:
     number: 3208-16
     tags: target1
