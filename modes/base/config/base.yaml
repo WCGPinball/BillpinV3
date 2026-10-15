@@ -18,8 +18,85 @@ shots:
   inlane_left:
     switch: s_left_inlane
 
+  outlane_right:
+    switch: s_right_outlane
+
+  inlane_right:
+    switch: s_right_inlane
+
+  target1:
+    switch: s_target1
+
+  target2:
+    switch: s_target2
+
+  target3:
+    switch: s_target3
+  
+  target4:
+    switch: s_target4
+  
+  target5:
+    switch: s_target5
+
+  target6:
+    switch: s_target6
+
+  target7:
+    switch: s_target7
+
+  target8:
+    switch: s_target8
+
+  target9:
+    switch: s_target9
+
+  spinner:
+    switch: s_spinner
+
+  pop0:
+    switch: s_pop_0
+
+  pop1:
+    switch: s_pop_1
+
+  pop2:
+    switch: s_pop_2
+
 variable_player:
   outlane_left_hit:
     score: 100
   inlane_left_hit:
-    score: 200
+    score: 100
+  outlane_right_hit:
+    score: 100
+  inlane_right_hit:
+    score: 100
+  target1_hit:
+    score: 100
+  target2_hit:
+    score: 100
+  target3_hit:
+    score: 100
+  target4_hit:
+    score: 100
+  target5_hit:
+    score: 100
+  target6_hit:
+    score: 100
+  target7_hit:
+    score: 100
+  target8_hit:
+    score: 100
+  target9_hit:
+    score: 100
+  spinner_hit:
+    score: 100
+  pop_0_hit:
+    score: 100
+  pop_1_hit:
+    score: 100
+  pop_2_hit:
+    score: 100
+
+  

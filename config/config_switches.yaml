@@ -61,7 +61,7 @@ switches:
     tags: target3
   s_spinner:
     number: 3208-19
-    tags: s_spinner
+    tags: spinner
   s_target5:
     number: 3208-20
     tags: target5
@@ -76,13 +76,13 @@ switches:
     tags: target8
   s_pop_0:
     number: 0804-0
-    tags: pop_0_switch
+    tags: pop_0
   s_pop_1:
     number: 0804-1
-    tags: pop_1_switch
+    tags: pop_1
   s_pop_2:
     number: 0804-2
-    tags: pop_2_switch
+    tags: pop_2
 
 
 
