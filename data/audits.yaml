@@ -1,76 +1,67 @@
 events:
-  game_ended: 16
-  game_started: 41
+  game_ended: 22
+  game_started: 48
 missing_switches:
-  s_flipper_right_eos: 3
-  s_launch: 18
-  s_left_outlane: 7
-  s_plunger: 22
-  s_pop_0: 3
-  s_pop_1: 3
-  s_pop_2: 3
-  s_right_flipper: 3
-  s_right_inlane: 3
-  s_right_outlane: 3
-  s_slingshot_left: 3
-  s_slingshot_right: 3
-  s_spinner: 3
-  s_target1: 3
-  s_target2: 3
-  s_target3: 3
-  s_target5: 4
-  s_target6: 3
-  s_target7: 3
-  s_target8: 3
-  s_target_9: 3
+  s_launch: 25
+  s_plunger: 29
+  s_right_outlane: 1
+  s_start: 1
+  s_target1: 2
+  s_target2: 10
+  s_target3: 10
+  s_target5: 11
+  s_target6: 10
+  s_target7: 10
+  s_target8: 10
+  s_target_9: 1
 player:
   score:
-    average: 1342
+    average: 1242
     top:
     - 5500
     - 3800
     - 3300
     - 3000
     - 2000
+    - 2000
     - 1600
     - 1600
+    - 1400
     - 1200
-    - 1000
-    - 1000
-    total: 19
+    total: 25
 shots:
-  inlane_left: 157
-  outlane_left: 49
+  inlane_left: 199
+  outlane_left: 51
 switches:
-  s_flipper_left_eos: 153
-  s_flipper_right_eos: 158
+  s_flipper_left_eos: 183
+  s_flipper_right_eos: 179
   s_launch: 4
-  s_left_flipper: 180
-  s_left_inlane: 170
-  s_left_outlane: 74
+  s_left_flipper: 210
+  s_left_inlane: 212
+  s_left_outlane: 76
   s_plunger: 18
-  s_pop_0: 46
-  s_pop_1: 28
-  s_pop_2: 69
-  s_right_flipper: 182
-  s_right_inlane: 22
-  s_right_outlane: 33
-  s_slingshot_left: 62
-  s_slingshot_right: 45
-  s_spinner: 79
-  s_start: 8
-  s_target1: 13
+  s_pop_0: 53
+  s_pop_1: 33
+  s_pop_2: 83
+  s_right_flipper: 203
+  s_right_inlane: 24
+  s_right_outlane: 34
+  s_slingshot_left: 79
+  s_slingshot_right: 52
+  s_spinner: 110
+  s_start: 9
+  s_target1: 14
   s_target2: 11
   s_target3: 6
   s_target5: 6
   s_target6: 8
   s_target7: 11
   s_target8: 8
-  s_target_9: 15
-  s_trough_ball_1: 191
-  s_trough_ball_2: 100
-  s_trough_ball_3: 88
-  s_trough_ball_4: 88
-  s_trough_ball_5: 88
-  s_trough_ball_6: 89
-  s_trough_ball_jam: 114
+  s_target_9: 18
+  s_trough_ball_1: 223
+  s_trough_ball_2: 140
+  s_trough_ball_3: 121
+  s_trough_ball_4: 120
+  s_trough_ball_5: 120
+  s_trough_ball_6: 121
+  s_trough_ball_jam: 146
